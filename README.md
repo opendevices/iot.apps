@@ -14,4 +14,4 @@ Developing Open Devices IoT Apps Tutorials
 
 ## Deploy IoT Apps
 
-
+* [IoT Apps Store](../master/doc/iot-apps-store.md)
