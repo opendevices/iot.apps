@@ -21,7 +21,7 @@ This is an example of an App Catalogue:
                         "description": "hello world Python v1",
                         "url": "https://company.com/apps/hello_world_python.tar",
                         "tags": ["video"],
-                        "security": "privileged",
+                        "security": "privileged"
                 },
         ]
 }

@@ -1,0 +1,35 @@
+{
+        "Name": "My Company Linux-IoT App Store",
+        "Version": 1,
+        "Apps": [
+                {
+                        "name": "Hello World Python v1",
+                        "description": "hello world Python v1",
+                        "url": "https://example.com/apps/hello_world_python.tar",
+                        "tags": ["video"],
+                        "security": "privileged"
+                },
+
+                {
+                        "name": "Hello World Python v2",
+                        "description": "hello world Python v2",
+                        "url": "https://example.com/apps/hello_world_python.tar",
+                        "tags": ["video"],
+                        "security": "privileged"
+                },
+                {
+                        "name": "Hello World Golang v1",
+                        "description": "hello world Golang v1",
+                        "url": "https://example.com/apps/hello_world_golang.tar",
+                        "tags": ["video"],
+                        "security": "privileged"
+                },
+                {
+                        "name": "Hello World Golang v2",
+                        "description": "hello world Golang v2",
+                        "url": "https://example.com/apps/hello_world_golang.tar",
+                        "tags": ["video"],
+                        "security": "privileged"
+                }
+        ]
+}
