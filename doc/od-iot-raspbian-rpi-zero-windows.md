@@ -1,5 +1,5 @@
 # Install raspbian on Raspberry Pi ZERO W, for Windows user.
-![Raspberry Pi Zero W](https://github.com/opendevices/iot.apps/doc/img/raspberry-pi-zero-w.jpg)
+![Raspberry Pi Zero W](iot.apps/doc/img/raspberry-pi-zero-w.jpg)
 
 ---
 
