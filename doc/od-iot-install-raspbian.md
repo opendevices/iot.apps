@@ -10,7 +10,7 @@
 
 ## Download a raspbian image and unzip it
 
-Open a terminal and use the **wget** command to download a zipped raspbian image.
+Open a terminal and use the **curl** command to download a zipped raspbian image.
 
 ```bash
 $ curl -JLO https://downloads.raspberrypi.org/raspbian_latest
