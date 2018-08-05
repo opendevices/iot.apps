@@ -33,18 +33,19 @@
 
 ## 7. Configure Wifi 
   To configure WiFi network on Rapsberry Pi Zero W do 
- 	- Reinsert the Micro SD card into your  computer.
-	- open **notepad** and copy/paste the following lines
-	```bash
-	  network={
-		ssid="SSID"
-		psk="PASSWORD"
-		key_mgmt=WPA-PSK
-	 }
-	```
-	
-	- Replace **SSID** with your Wifi ID and **PASSWORD** with your Wifi password.
-	- Save the file as **wpa_suppliant.conf** under **boot** partition.
+
+- Reinsert the Micro SD card into your  computer.
+- open **notepad** and copy/paste the following lines
+```bash
+  network={
+	ssid="SSID"
+	psk="PASSWORD"
+	key_mgmt=WPA-PSK
+
+}
+```
+- Replace **SSID** with your Wifi ID and **PASSWORD** with your Wifi password.
+- Save the file as **wpa_suppliant.conf** under **boot** partition.
  
 	 
 ## 8. First boot)
