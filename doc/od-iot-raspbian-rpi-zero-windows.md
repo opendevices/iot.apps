@@ -47,8 +47,18 @@
 - Replace **SSID** with your Wifi ID and **PASSWORD** with your Wifi password.
 - Save the file as **wpa_suppliant.conf** under **boot** partition.
  
+## 8. Enable ssh 
+
+To enable ssh on Raspberry Pi Zero, create a file called **ssh** without any extention under **boot** partition.
+
+ - Launch Notepad 
+ - Click on **File** and then **Save As..**, a dialog box is displayed.
+ - Type an opening quotation mark, ssh and then closing quotation mark. That way **"ssh"**.	
+ - Click on the SD card **boot** partition to save file on it.
+ - Click the **Save** button.
+
 	 
-## 8. First boot)
+## 9. First boot)
 
 
 
