@@ -26,10 +26,11 @@
 ## 5. Install Etcher on your Windows system
 
 ## 6. Execute Etcher software, to copy raspbian on your Micro-SD card
-  - select rasp img
-  - select a driver
-  - click on flash
-  - wait
+  - Open **Etcher**
+  - Select the Rasbpian  image.
+  - Select your MicroSD card.
+  - Click on flash.
+
 
 ## 7. Configure Wifi
   To configure WiFi network on Rapsberry Pi Zero W do
@@ -49,7 +50,7 @@
 
 ## 8. Enable ssh
 
- - Launch Notepad 
+ - Launch Notepad
  - Click on **File** and then **Save As..**, a dialog box is displayed.
  - Type an opening quotation mark, ssh and then closing quotation mark. That way **"ssh"**.    
  - Click on the SD card **boot** partition to save file on it.
