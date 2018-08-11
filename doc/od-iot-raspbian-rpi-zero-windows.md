@@ -35,6 +35,7 @@
   To configure WiFi network on Rapsberry Pi Zero W do
  	- Reinsert the Micro SD card into your  computer.
 	- open **notepad** and copy/paste the following lines
+
 	```bash
 	  network={
 		ssid="SSID"
@@ -46,8 +47,15 @@
 	- Replace **SSID** with your Wifi ID and **PASSWORD** with your Wifi password.
 	- Save the file as **wpa_suppliant.conf** under **boot** partition.
 
+## 8. Enable ssh
 
-## 8. First boot
+ - Launch Notepad 
+ - Click on **File** and then **Save As..**, a dialog box is displayed.
+ - Type an opening quotation mark, ssh and then closing quotation mark. That way **"ssh"**.    
+ - Click on the SD card **boot** partition to save file on it.
+ - Click the **Save** button.
+
+## 9. First boot
 
 - Insert the Micro SD into Raspberry Pi Zero,
 - Power with Micro USB cable (at least 2.5 A).
@@ -59,7 +67,7 @@
   * Port: **22**
 
 
-## 9. Update raspbian
+## 10. Update raspbian
  To update the Raspbian system, tape the following command on your terminal.
 
  ```bash
