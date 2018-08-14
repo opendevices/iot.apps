@@ -9,31 +9,32 @@
 
 
 ## 2. Download the latest raspbian image.
-  - Download the Rasbpian image from  [Raspbian image](https://www.raspberrypi.org/downloads/raspbian/).
+ - Download the Rasbpian image from  [Raspbian image](https://www.raspberrypi.org/downloads/raspbian/).
 
 
  ![Download raspbian](https://github.com/opendevices/iot.apps/doc/img/Download-Raspbian.png)
 
 ## 3. Extract the raspbian image
-  - Unzip the Raspbian image.
+ - Unzip the Raspbian image.
 ![Unzip Raspbian](https://github.com/opendevices/iot.apps/doc/img/)
 
 
 ## 4. Download and Install Etchter software.
-  - Download a Windows version of  Etcher ![Download Etcher](https://github.com/opendevices/iot.apps/doc/img/Download-Etcher.png)
-  - Install Etcher on your system.
+ - Download a Windows version of  Etcher ![Download Etcher](https://github.com/opendevices/iot.apps/doc/img/Download-Etcher.png)
+ - Install Etcher on your system.
 
 ## 5. Execute Etcher software, to copy raspbian on your Micro-SD card
-  - Open **Etcher**
-  - Select the Rasbpian  image.
-  - Select your MicroSD card.
-  - Click on flash.
+ - Open **Etcher**
+ - Select the Rasbpian  image.
+ - Select your MicroSD card.
+ - Click on flash.
 
 
 ## 6. Configure Wifi
   To configure WiFi network on Rapsberry Pi Zero W do
- 	- Reinsert the Micro SD card into your  computer.
-	- open **notepad** and copy/paste the following lines
+  
+ - Reinsert the Micro SD card into your  computer.
+ - open **notepad** and copy/paste the following lines
 
 	```bash
 	  network={
@@ -43,8 +44,8 @@
 	 }
 	```
 
-	- Replace **SSID** with your Wifi ID and **PASSWORD** with your Wifi password.
-	- Save the file as **wpa_suppliant.conf** under **boot** partition.
+ - Replace **SSID** with your Wifi ID and **PASSWORD** with your Wifi password.
+ - Save the file as **wpa_suppliant.conf** under **boot** partition.
 
 ## 7. Enable ssh
 
