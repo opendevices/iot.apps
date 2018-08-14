@@ -1,4 +1,4 @@
-#Installing Raspbian on the Raspberry Pi : A Simple guide. (Linux GUI users)
+# Installing Raspbian on the Raspberry Pi : A Simple guide. (Linux GUI users)
 
 [see Windows users version]()
 [see MacOS users version]()
@@ -11,7 +11,7 @@ To succeed this installation , we need some equipment and software.
 
 Equipment :
 
- - SD card (A least 8 Gb).
+ - SD card (at least 8 Gb).
  - Ethernet Cord or WiFi dongle.
  - SD card reader , if your computer don’t have a SD card slot.
  - Power supply with micro USB cable.
@@ -43,7 +43,7 @@ use Etcher to write the Raspbian image into the SD card  and boot.
 The easiest way to flash (copy) Raspbian image to the SD card is using  Etcher software. It works on
 all platforms (GNU/Linux, Mac and Windows).
 
-  - Download Etcher , here (Etcher)[] , choose the appropriate  version , in our case Linux-x64 version.
+  - Download Etcher , here (Etcher)[https://etcher.io/] , choose the appropriate  version , in our case Linux-x64 version.
 
 ![image etcher linux]()
 
