@@ -23,9 +23,8 @@ Optional equipment :
 Software:
  - Raspbian image .
  - Etcher software.
- - Unzip software , installed by default into your GNU/Linux distribution.
 
-The process is very simple, download a Raspbian image and Etcher software, unzip them,
+The process is very simple, download a Raspbian image and Etcher software,
 use Etcher to write the Raspbian image into the SD card  and boot.
 
 
@@ -33,39 +32,37 @@ use Etcher to write the Raspbian image into the SD card  and boot.
 
   - Download the Raspbian image ,  you can find the latest version here [Raspbian Image](https://www.raspberrypi.org/downloads/raspbian/) .
 
-  - The Raspbian image is compressed , so you will need to unzip it.
-    * if you have any problem see this [link]().
 
-![unzip image](iot.apps/doc/img/)
+![downloaded raspbian image](iot.apps/doc/img/)
 
 ## 2. Copy Raspbian  to SD card.
 
 The easiest way to flash (copy) Raspbian image to the SD card is using  Etcher software. It works on
 all platforms (GNU/Linux, Mac and Windows).
 
-  - Download Etcher , here (Etcher)[] , choose the appropriate  version , in our case Linux-x64 version.
+  - Download Etcher , here [Etcher](https://etcher.io/) , choose the appropriate  version , in our case Linux-x64 version.
 
-![image etcher linux]()
+![download etcher linux](EtcherDownload.png)
 
   - Unzip it
   - Insert the SD card into the SD Card reader.
   - Run Etcher
 
-![Etcher on Linux]()
-
-  - Once Etcher open , browse and select the **unzipped Raspbian image** .
+  - Once Etcher open , browse and select the Raspbian image.
   - Select the SD card that you which install Raspbian on.
 
-![image etcher select]()
-
-![image etcher select drive]
+![etcher select](EtcherSelect.png)
 
   - Click on the flash button.
+
+![etcher select](EtcherFlash.png)
 
 Once it's finished  Etcher unmount automatically the SD card   , you can  remove it safely  from the computer
 SD card reader.
 
-4.. Boot your Raspberry Pi
+
+## 3. Boot your Raspberry Pi
+
 Now our Raspberry is able to boot
 
 ![image plug ]()
