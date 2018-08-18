@@ -1,6 +1,7 @@
-#Installing Raspbian on the Raspberry Pi : A Simple guide. (Linux GUI users)
+# Installing Raspbian on the Raspberry Pi : A Simple guide. (Linux GUI users)
 
 [see Windows users version]()
+
 [see MacOS users version]()
 
 This guide will show you step by step, a straightforward process how to install a Raspbian OS  on
@@ -11,14 +12,14 @@ To succeed this installation , we need some equipment and software.
 
 Equipment :
 
- - SD card (A least 8 Gb).
+ - SD card (at least 8 Gb).
  - Ethernet Cord or WiFi dongle.
  - SD card reader , if your computer don’t have a SD card slot.
  - Power supply with micro USB cable.
 
 Optional equipment :
- -USB keyboard.
- -USB mouse.
+ - USB keyboard.
+ - USB mouse.
 
 Software:
  - Raspbian image .
