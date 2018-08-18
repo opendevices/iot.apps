@@ -34,7 +34,7 @@ use Etcher to write the Raspbian image into the SD card  and boot.
   - Download the Raspbian image ,  you can find the latest version here [Raspbian Image](https://www.raspberrypi.org/downloads/raspbian/) .
 
 
-![downloaded raspbian image](https://github.com/opendevices/iot.apps/blob/master/doc/RaspbianDownload.png)
+![downloaded raspbian image](https://github.com/opendevices/iot.apps/blob/master/doc/img/RaspbianDownload.png)
 
 ## 2. Copy Raspbian  to SD card.
 
