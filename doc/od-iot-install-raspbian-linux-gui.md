@@ -43,7 +43,7 @@ all platforms (GNU/Linux, Mac and Windows).
 
   - Download Etcher , here [Etcher](https://etcher.io/) , choose the appropriate  version , in our case Linux-x64 version.
 
-![download etcher linux](EtcherDownload.png)
+![download etcher linux](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherDownload.png)
 
   - Unzip it
   - Insert the SD card into the SD Card reader.
@@ -52,11 +52,11 @@ all platforms (GNU/Linux, Mac and Windows).
   - Once Etcher open , browse and select the Raspbian image.
   - Select the SD card that you which install Raspbian on.
 
-![etcher select](EtcherSelect.png)
+![etcher select](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherSelect.png)
 
   - Click on the flash button.
 
-![etcher select](EtcherFlash.png)
+![etcher flash](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherFlash.png)
 
 Once it's finished  Etcher unmount automatically the SD card   , you can  remove it safely  from the computer
 SD card reader.
