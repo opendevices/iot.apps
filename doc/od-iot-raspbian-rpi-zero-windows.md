@@ -8,31 +8,35 @@
 ![MicroSD Reader](https://github.com/opendevices/iot.apps/doc/img/sd-card-reader.jpg)
 
 
-## 2. Download the latest raspbian image.
- - Download the Rasbpian image from  [Raspbian image](https://www.raspberrypi.org/downloads/raspbian/).
+## 2. Downloading Raspbian.
+ - Download the Rasbpian image, you can find the latest version here  [Raspbian image](https://www.raspberrypi.org/downloads/raspbian/).
 
 
- ![Download raspbian](https://github.com/opendevices/iot.apps/doc/img/Download-Raspbian.png)
+ ![Download raspbian windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/RaspbianDownloadWindows.png)
 
-## 3. Extract the raspbian image
- - Unzip the Raspbian image.
-![Unzip Raspbian](https://github.com/opendevices/iot.apps/doc/img/)
+## 3. Copy Raspbian to the MicroSD card 
+ The simplest and easiest way to copy the Raspbian OS to your MicroSD card is, Etcher software.It's work well on Windows.
 
 
-## 4. Download and Install Etchter software.
- - Download a Windows version of  Etcher ![Download Etcher](https://github.com/opendevices/iot.apps/doc/img/Download-Etcher.png)
- - Install Etcher on your system.
+ - Download a Windows version of  Etcher software, from  
+ ![Download Etcher](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherDownloadWindows.png)
 
-## 5. Execute Etcher software, to copy raspbian on your Micro-SD card
- - Open **Etcher**
- - Select the Rasbpian  image.
- - Select your MicroSD card.
- - Click on flash.
+ - Unzip it.
+ 
+ - Install Etcher on your Windows system.
+ ![Etcher Install Windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherInstallWindows.png)
 
+ - Insert the MicroSD card into the card reader.
+ 
+ - Execute Etcher.
+ - Once Etcher open, browse and select the Raspbian image.
+ - Select the MicroSD card that you which to install Raspbian on.
+ - Click on the flash button.
+ 
 
 ## 6. Configure Wifi
   To configure WiFi network on Rapsberry Pi Zero W do
-  
+  //
  - Reinsert the Micro SD card into your  computer.
  - open **notepad** and copy/paste the following lines
 
