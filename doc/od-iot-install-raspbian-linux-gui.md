@@ -1,8 +1,8 @@
 # Installing Raspbian on the Raspberry Pi : A Simple guide. (Linux GUI users)
 
-[see Windows users version]()
+[see Windows users version](https://github.com/opendevices/iot.apps/blob/master/doc/od-iot-raspbian-rpi-zero-windows.md)
 
-[see MacOS users version]()
+[see MacOS users version](https://github.com/opendevices/iot.apps/blob/master/doc/)
 
 This guide will show you step by step, a straightforward process how to install a Raspbian OS  on
 Raspberry Pi 2. This method also work for all the different models of Raspberry Pi (A, B, B+, 2)
@@ -76,4 +76,4 @@ Now our Raspberry is able to boot
  enjoy  ;)
 ---
 
-To access to your Raspberry Pi without using keyboard and screen, see this [link]().
+To access to your Raspberry Pi without using keyboard and screen, see this [link](https://github.com/opendevices/iot.apps/blob/master/doc/od-iot-raspbian-rpi-windows.md).
