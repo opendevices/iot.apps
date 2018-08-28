@@ -1,46 +1,61 @@
-# Install raspbian on Raspberry Pi ZERO W, for Windows user.
+# Installing  Raspbian on Raspberry Pi ZERO W, for Windows user.
 ![Raspberry Pi Zero W](https://github.com/opendevices/iot.apps/doc/img/raspberry-pi-zero-w.jpg)
 
 ---
+This guide will show you step by step, how to install a Raspbian OS  on
+**Raspberry Pi Zero W** without using a keyboard, screen and mouse .
 
-## 1.Put your Micro SD on SD-Reader.
+For this installation we need some equipment and software.
+  - MicroSD card.
+  - MicroSD card reader , if your computer don’t have a MicroSD card slot.
+  - Power supply with micro USB cable.
 
-![MicroSD Reader](https://github.com/opendevices/iot.apps/doc/img/sd-card-reader.jpg)
+Software:
+  - Rasbpian image .
+  - Etcher Software .
+
+  The process is very simple, download a Raspbian image and Etcher software,
+  use Etcher to write the Raspbian image into the MicroSD card , configure WiFi connection
+  enable SSH service and boot.
 
 
-## 2. Downloading Raspbian.
+## 1. Downloading Raspbian.
  - Download the Rasbpian image, you can find the latest version here  [Raspbian image](https://www.raspberrypi.org/downloads/raspbian/).
-
 
  ![Download raspbian windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/RaspbianDownloadWindows.png)
 
-## 2. Copy Raspbian to the MicroSD card 
+## 2. Copy Raspbian to the MicroSD card
  The simplest and easiest way to copy the Raspbian OS to your MicroSD card is, Etcher software.It's work well on Windows.
-
 
  - Download a Windows version of  Etcher software, from  
  ![Download Etcher](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherDownloadWindows.png)
 
  - Unzip it.
- 
  - Install Etcher on your Windows system.
  ![Etcher Install Windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherInstallWindows.png)
 
  - Insert the MicroSD card into the card reader.
- 
- - Execute Etcher.
- - Once Etcher open, browse and select the Raspbian image.
+ ![MicroSD Reader](https://github.com/opendevices/iot.apps/doc/img/sd-card-reader.jpg)
+
+  - Execute Etcher.
+  - Once Etcher open, browse and select the Raspbian image.
   ![Open Etcher](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherSelectWindows.png)
-  
- - Select the MicroSD card that you which to install Raspbian on.
- - Click on the flash button.
- 
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+
+![etcher flash](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherFlashWindows.png)
+
+Once it's finished  Etcher unmount automatically the MicroSD card.
 
 ## 3. Configure Wifi
-  To configure WiFi network on Rapsberry Pi Zero W do
-  //
- - Reinsert the Micro SD card into your  computer.
- - open **notepad** and copy/paste the following lines
+  To configure WiFi connection on Rapsberry Pi Zero W do
+
+  - Remove the MicroSD card from the SD card reader.
+  - Reinsert the Micro SD card into computer SD card reader.
+  - Observe that a *boot* partition will mount automatically.
+  - open **notepad** and copy/paste the following lines
 
 	```bash
 	  network={
@@ -65,9 +80,9 @@
 
 - Insert the Micro SD into Raspberry Pi Zero,
 - Power with Micro USB cable (at least 2.5 A).
-
 - To access to your Raspberry Pi , via your Windows computer you need a ssh client
   like putty [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
 - Setup putty
   * Host name : **pi@raspberrypi.local**
   * Port: **22**
