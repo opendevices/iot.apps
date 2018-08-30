@@ -12,10 +12,10 @@ To succeed this installation , we need some equipment and software.
 
 Equipment :
 
- - SD card (at least 8 Gb).
- - Ethernet Cord or WiFi dongle.
- - SD card reader , if your computer don’t have a SD card slot.
- - Power supply with micro USB cable.
+ - MicroSD card (at least 8 Gb).
+ - Ethernet Cord.
+ - MicroSD card reader , if your computer doesn’t have a SD card slot.
+ - Power supply (2.5 A) with micro USB cable.
 
 Optional equipment :
  - USB keyboard.
