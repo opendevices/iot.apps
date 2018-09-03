@@ -100,9 +100,40 @@ Run sync to synchronize cached writes to SD card.
 ```bash
 $ sync
 ```
+## 4.Enable *SSH*
 
+To enable *ssh* service  do the following
+ - Remove the MicroSD from the computer reader.
+ - Reinsert the MicroSD again.
+ - Open a terminal and tape the command **df**.
 
-Remove the SD card from slot.
+```bash
+$ df -h
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 1.7G     0  1.7G   0% /dev
+tmpfs                    1.7G   28M  1.7G   2% /dev/shm
+tmpfs                    1.7G  2.0M  1.7G   1% /run
+tmpfs                    1.7G     0  1.7G   0% /sys/fs/cgroup
+/dev/mapper/fedora-root   49G   11G   36G  24% /
+tmpfs                    1.7G  192K  1.7G   1% /tmp
+/dev/mapper/fedora-home  196G   65G  122G  35% /home
+/dev/sda1                976M  213M  696M  24% /boot
+/dev/mmcblk0p1            43M   22M   21M  51% /run/media/nwd/boot
+/dev/mmcblk0p2           7.3G 1022M  5.9G  15% /run/media/nwd/rootfs
+```
+
+  - Note the MicroSD boot partition
+```bash
+/dev/mmcblk0p1            43M   22M   21M  51% /run/media/nwd/boot
+```
+  - Move to this partition and create a ssh file.
+
+```bash
+$ cd /run/media/nwd/boot
+$ touch ssh
+$ cd
+```
+
 
 ---
 
