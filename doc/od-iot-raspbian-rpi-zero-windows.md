@@ -104,13 +104,12 @@ Once it's finished  Etcher **unmount** automatically the MicroSD card.
 - Setup putty
   * Host name : **pi@raspberrypi.local**
   * Port: **22**
+  * Default User Name: **pi**
+  * Default Password: **raspberry**
 
-- Default User Name: **pi**
-- Default Password: **raspberry**
 
-
-ssh command to connect:
-```
+- Complete ssh command to connect:
+```bash
 $ ssh pi@raspberrypi.local
 ```
 
