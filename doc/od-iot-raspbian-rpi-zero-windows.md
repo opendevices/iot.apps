@@ -64,12 +64,12 @@ Once it's finished  Etcher **unmount** automatically the MicroSD card.
 
   - open **notepad** and copy/paste the following lines
 
-	```bash
-	  network={
-		ssid="SSID"
-		psk="PASSWORD"
-		key_mgmt=WPA-PSK
-	 }
+        ```bash
+        network={
+	        ssid="SSID"
+	        psk="PASSWORD"
+	        key_mgmt=WPA-PSK
+        }
 	```
 
  - Replace **SSID** with your Wifi ID and **PASSWORD** with your Wifi password.
@@ -104,6 +104,15 @@ Once it's finished  Etcher **unmount** automatically the MicroSD card.
 - Setup putty
   * Host name : **pi@raspberrypi.local**
   * Port: **22**
+
+- Default User Name: **pi**
+- Default Password: **raspberry**
+
+
+SSH Command
+```
+$ ssh pi@raspberrypi.local
+```
 
 
 ## 6. Update raspbian
