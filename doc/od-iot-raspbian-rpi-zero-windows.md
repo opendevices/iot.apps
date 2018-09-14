@@ -64,13 +64,13 @@ Once it's finished  Etcher **unmount** automatically the MicroSD card.
 
   - open **notepad** and copy/paste the following lines
 
-        ```bash
+```bash
         network={
 	        ssid="SSID"
 	        psk="PASSWORD"
 	        key_mgmt=WPA-PSK
         }
-	```
+```
 
  - Replace **SSID** with your Wifi ID and **PASSWORD** with your Wifi password.
  - Save the file as **wpa_suppliant.conf** under **boot** partition.
