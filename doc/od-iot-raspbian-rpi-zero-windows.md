@@ -109,7 +109,7 @@ Once it's finished  Etcher **unmount** automatically the MicroSD card.
 - Default Password: **raspberry**
 
 
-SSH Command
+ssh command to connect:
 ```
 $ ssh pi@raspberrypi.local
 ```
