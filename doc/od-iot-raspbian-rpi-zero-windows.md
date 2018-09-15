@@ -82,6 +82,7 @@ or
 
  ![WiFi Config Windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/ConfigWifiWindows.png)
 
+
 ## 4. Enable ssh
 
  - Launch Notepad
@@ -94,20 +95,7 @@ or
  - Click the **Save** button.
 
 
-## 5. Change Hostname
-
-If you have multiple Raspberry PIs, then you should change their
-Hostname so they won't collide on the same network.
-
-- Change Hostname by editing the following file and write your own
-hostname so you can find your Rapsberry PI on the network.
-
-```bash
-rootfs/etc/hostname
-```
-
-
-## 6. First boot
+## 5. First boot
 
 ![Raspberry Pi Zero](https://github.com/opendevices/iot.apps/blob/master/doc/img/RpiZero.jpg)
 
@@ -119,27 +107,20 @@ rootfs/etc/hostname
   like putty [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 - Setup putty
-  * Host name : **pi@raspberrypi.local** or the Hostname of Step 5
+  * Host name : **pi@raspberrypi.local**
   * Port: **22**
   * Default User Name: **pi**
   * Default Password: **raspberry**
 
 
-- Complete ssh command to connect using your hostname:
+- Complete ssh command to connect:
 
 ```bash
 $ ssh pi@raspberrypi.local
 ```
 
-or change the **raspberrypi.local** by your **hostname** of Step 5
 
-
-```bash
-$ ssh pi@yourhostname
-```
-
-
-## 7. Update raspbian
+## 6. Update raspbian
  To update the Raspbian system, tape the following command on your terminal.
 
  ```bash
