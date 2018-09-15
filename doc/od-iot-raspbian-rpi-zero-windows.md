@@ -73,7 +73,12 @@ Once it's finished  Etcher **unmount** automatically the MicroSD card.
 ```
 
  - Replace **SSID** with your Wifi ID and **PASSWORD** with your Wifi password.
- - Save the file as **wpa_suppliant.conf** under **boot** partition.
+ - Save the file as **wpa_supplicant.conf** under **boot** partition.
+
+or
+ 
+ - Save it as **wpa_supplicant.conf** under **rootfs** partition under
+ **/etc/wpa_supplicant/**
 
  ![WiFi Config Windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/ConfigWifiWindows.png)
 
