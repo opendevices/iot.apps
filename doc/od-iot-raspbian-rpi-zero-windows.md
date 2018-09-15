@@ -65,6 +65,9 @@ Once it's finished  Etcher **unmount** automatically the MicroSD card.
   - open **notepad** and copy/paste the following lines
 
 ```bash
+	country=AU
+	ctl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+	update_config=1
         network={
 	        ssid="SSID"
 	        psk="PASSWORD"
