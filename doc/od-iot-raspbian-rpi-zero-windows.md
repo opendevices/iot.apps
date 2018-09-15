@@ -107,7 +107,7 @@ or
   like putty [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 - Setup putty
-  * Host name : **pi@raspberrypi.local**
+  * Host name : **raspberrypi.local**
   * Port: **22**
   * Default User Name: **pi**
   * Default Password: **raspberry**
