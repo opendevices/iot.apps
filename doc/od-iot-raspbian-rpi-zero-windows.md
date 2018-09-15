@@ -94,7 +94,9 @@ Once it's finished  Etcher **unmount** automatically the MicroSD card.
 If you have multiple Raspberry PIs, then you should change their
 Hostname so they won't collide on the same network.
 
-- Change Hostname by editing the following file:
+- Change Hostname by editing the following file and write your own
+hostname so you can find your Rapsberry PI on the network.
+
 ```bash
 rootfs/etc/hostname
 ```
@@ -112,15 +114,23 @@ rootfs/etc/hostname
   like putty [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 - Setup putty
-  * Host name : **pi@raspberrypi.local**
+  * Host name : **pi@raspberrypi.local** or the Hostname of Step 5
   * Port: **22**
   * Default User Name: **pi**
   * Default Password: **raspberry**
 
 
-- Complete ssh command to connect:
+- Complete ssh command to connect using your hostname:
+
 ```bash
 $ ssh pi@raspberrypi.local
+```
+
+or change the **raspberrypi.local** by your **hostname** of Step 5
+
+
+```bash
+$ ssh pi@yourhostname
 ```
 
 
