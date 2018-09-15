@@ -89,8 +89,18 @@ Once it's finished  Etcher **unmount** automatically the MicroSD card.
  - Click the **Save** button.
 
 
+## 5. Change Hostname
 
-## 5. First boot
+If you have multiple Raspberry PIs, then you should change their
+Hostname so they won't collide on the same network.
+
+- Change Hostname by editing the following file:
+```bash
+rootfs/etc/hostname
+```
+
+
+## 6. First boot
 
 ![Raspberry Pi Zero](https://github.com/opendevices/iot.apps/blob/master/doc/img/RpiZero.jpg)
 
@@ -114,7 +124,7 @@ $ ssh pi@raspberrypi.local
 ```
 
 
-## 6. Update raspbian
+## 7. Update raspbian
  To update the Raspbian system, tape the following command on your terminal.
 
  ```bash
