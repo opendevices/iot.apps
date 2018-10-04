@@ -64,18 +64,27 @@ Once it's finished  Etcher **unmount** automatically the MicroSD card.
 
   - open **notepad** and copy/paste the following lines
 
-	```bash
-	  network={
-		ssid="SSID"
-		psk="PASSWORD"
-		key_mgmt=WPA-PSK
-	 }
-	```
+```bash
+	country=AU
+	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+	update_config=1
+        network={
+	        ssid="SSID"
+	        psk="PASSWORD"
+	        key_mgmt=WPA-PSK
+        }
+```
 
  - Replace **SSID** with your Wifi ID and **PASSWORD** with your Wifi password.
- - Save the file as **wpa_suppliant.conf** under **boot** partition.
+ - Save the file as **wpa_supplicant.conf** under **boot** partition.
+
+or
+ 
+ - Save it as **wpa_supplicant.conf** under **rootfs** partition under
+ **/etc/wpa_supplicant/**
 
  ![WiFi Config Windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/ConfigWifiWindows.png)
+
 
 ## 4. Enable ssh
 
@@ -87,7 +96,6 @@ Once it's finished  Etcher **unmount** automatically the MicroSD card.
 
  - Click on the SD card **boot** partition to save file on it.
  - Click the **Save** button.
-
 
 
 ## 5. First boot
@@ -102,8 +110,17 @@ Once it's finished  Etcher **unmount** automatically the MicroSD card.
   like putty [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 - Setup putty
-  * Host name : **pi@raspberrypi.local**
+  * Host name : **raspberrypi.local**
   * Port: **22**
+  * Default User Name: **pi**
+  * Default Password: **raspberry**
+
+
+- Complete ssh command to connect:
+
+```bash
+$ ssh pi@raspberrypi.local
+```
 
 
 ## 6. Update raspbian
