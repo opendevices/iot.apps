@@ -1,5 +1,7 @@
 # Opendevices  IoT workshop 2
 
+![](https://github.com/opendevices/iot.apps/blob/master/workshop2/iot.png)
+
 In this workshop we are going to setup **DHT11**, a temperature and humidity sensor on Raspberry Pi.
 You will learn how to connect the sensor to the Raspberry Pi , how to program DHT11 to read humidity and temperature and send the output to ssh terminal.
 
@@ -7,6 +9,9 @@ You will learn how to connect the sensor to the Raspberry Pi , how to program DH
 ## 1. Equipment and software.
 
 For this workshop we need some equipment and software.
+
+![Equipement](https://github.com/opendevices/iot.apps/blob/master/workshop2/all.jpg)
+
 
  - Raspberry PI with Raspbian system installed.
  - Temperature and humidity sensor **DHT11**
@@ -21,13 +26,17 @@ For this workshop we need some equipment and software.
 
  We are using DHT11 sensor with three pin.
 
+![DHT11 Temerature & Humidity sensor](https://github.com/opendevices/iot.apps/blob/master/workshop2/dht11.jpg)
+
   - Connect the 3 jumper wires to the DHT11 sensor.
+
   - Connect the end of jumper wires  to raspberry pi, as below.
 
     * Pinout 1  (Signal)    => Raspberry Pi pinout 7 BCM4 (GPCLOK0).
     * Pinout 2  (Vcc +)     => Raspberry Pi pinout 1 3v3 Power.
     * Pinout 3  (Ground -)  => Raspberry Pi pinout 6 Ground.
-
+    
+![Connect DHT11 with Raspberry Pi](https://github.com/opendevices/iot.apps/blob/master/workshop2/dht11rpi.jpg)
 
     [See the comprehensive GPIO Pinout guide for the Raspberry Pi.](https://pinout.xyz/#)
 
