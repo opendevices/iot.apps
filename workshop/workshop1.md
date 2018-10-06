@@ -84,3 +84,58 @@ $ ssh -l pi raspberrypi.local
 ```bash
 $ vlc -vvv v4l2:///dev/video0 --sout '#transcode{vcodec=VP80,vb=2000,acodec=vorb,ab=128,channels=2,samplerate=44100}:http{mux=webm,dst=:8080/}' --no-sout-all --sout-keep
 ```
+## 4. Video streaming using ffmpeg 
+
+Install ffmpeg on Raspberry  Pi and execute it.
+
+```bash 
+$ sudo apt-get install ffmpeg
+```
+- Configure  ffmpeg server using  /etc/ffserver.conf file
+```bash 
+$sudo vi /etc/ffserver.conf
+```
+- copy / paste the following lines 
+
+```bash 
+
+HTTPPort            8080
+HTTPBindAddress     0.0.0.0
+MaxHTTPConnections 200
+MaxClients      100
+MaxBandWidth    500000
+CustomLog       -
+
+<Feed camera.ffm>
+File            /tmp/camera.ffm
+FileMaxSize     200M
+</Feed>
+
+<Stream camera.mjpeg>
+Feed camera.ffm
+Format mpjpeg
+VideoFrameRate 15
+VideoIntraOnly
+VideoBitRate 4096
+VideoBufferSize 4096
+VideoSize 640x480
+VideoQMin 5
+VideoQMax 51
+NoAudio
+Strict -1
+</Stream>
+```
+
+  - Launch ffserver 
+  ```bash 
+  $ ffserver -f /etc/ffserver.conf &
+  ```
+  - Execute ffmpeg with the following parameters.
+  
+  ```bash 
+   $  ffmpeg -f v4l2 -s 640x480 -r 15 -i /dev/video0 http://raspberypi-ip:8080/camera.ffm
+  ```
+
+- On your computer use the browser to connect at http://192.168.1.12:8080/camera.mjpeg
+  
+  
