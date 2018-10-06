@@ -122,10 +122,3 @@ or if you can put the MicroSD Card on Linux, you will have the
 $ ssh pi@raspberrypi.local
 ```
 
-
-## 6. Update raspbian
- To update the Raspbian system, tape the following command on your terminal.
-
- ```bash
- $ sudo apt-get update && apt-get upgrade -y
- ```
