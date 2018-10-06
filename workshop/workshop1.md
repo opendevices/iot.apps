@@ -92,6 +92,10 @@ Install ffmpeg on Raspberry  Pi and execute it.
 $ sudo apt-get install ffmpeg
 ```
 - Configure  ffmpeg server using  /etc/ffserver.conf file
+```bash 
+$sudo vi /etc/ffserver.conf
+```
+- copy / paste the following lines 
 
 ```bash 
 
