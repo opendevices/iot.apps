@@ -129,9 +129,9 @@ Strict -1
   - Execute ffmpeg with the following parameters.
   
   ```bash 
-   $  ffmpeg -f v4l2 -s 640x480 -r 15 -i /dev/video0 http://192.168.1.12:8080/camera.ffm
+   $  ffmpeg -f v4l2 -s 640x480 -r 15 -i /dev/video0 http://raspberypi-ip:8080/camera.ffm
   ```
 
-- On your computer use the browser to connect at http://192.168.1.12:8080/camera.ffm
+- On your computer use the browser to connect at http://192.168.1.12:8080/camera.mjpeg
   
   
