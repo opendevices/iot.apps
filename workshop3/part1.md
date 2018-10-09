@@ -10,7 +10,7 @@ read data from the DHT11 sensor and display it on ssh terminal.
 
 For this workshop we need some equipment.
 
-![Equipement]((https://github.com/opendevices/iot.apps/blob/master/workshop3/all.jpg)
+![Equipement](https://github.com/opendevices/iot.apps/blob/master/workshop3/all.jpg)
 
 - Raspberry Pi.
 - **DHT11**, temperature and humidity sensor.
