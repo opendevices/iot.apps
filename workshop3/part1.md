@@ -10,7 +10,7 @@ read data from the DHT11 sensor and display it on ssh terminal.
 
 For this workshop we need some equipment.
 
-![Equipement]((https://github.com/opendevices/iot.apps/blob/master/workshop2/all.jpg)
+![Equipement]((https://github.com/opendevices/iot.apps/blob/master/workshop3/all.jpg)
 
 - Raspberry Pi.
 - **DHT11**, temperature and humidity sensor.
@@ -26,22 +26,19 @@ We are using DHT11 sensor, 3 pins model.
  - 1 Hz sampling rate.
  - 3 to 5V power and I/O.
 
-![DHT11 Temerature & Humidity sensor](https://github.com/opendevices/iot.apps/blob/master/work\
-shop2/dht11.jpg)
+![DHT11 Temerature & Humidity sensor](https://github.com/opendevices/iot.apps/blob/master/workshop3/dht11.jpg)
 
 
  * Connect the 3 jumber wires to the DHT11 sensor  
 
- ![DHT11 & Raspberry](https://github.com/opendevices/iot.apps/blob/master/work\
- shop2/dht11rpi.jpg)
+ ![DHT11 & Raspberry](https://github.com/opendevices/iot.apps/blob/master/workshop3/dht11rpi.jpg)
 
  * Connect the end of jumper wires to raspberry pi, as below.
    - Pinout 1 (Signal)   =>   Raspberry Pi pinout BCM4 (GPCLOk0).
    - Pinout 2 (Vcc ++)   =>   Raspberry Pi pinout 3v3 Power.
    - Pinout 3 (Ground -) =>    Raspbery Pi pinout 6 Ground.
 
-   ![Raspberry wires](https://github.com/opendevices/iot.apps/blob/master/work\
-   shop2/rpiwires.jpg)
+   ![Raspberry wires](https://github.com/opendevices/iot.apps/blob/master/workshop3/rpiwires.jpg)
 
  * Power the Raspberry
  * Connect to it using ssh
