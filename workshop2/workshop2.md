@@ -2,10 +2,17 @@
 
 ![](https://github.com/opendevices/iot.apps/blob/master/workshop2/iot.png)
 
-In this workshop we are going to setup **DHT11**, a temperature and humidity sensor on Raspberry Pi.
+In this workshop we are going to setup **DHT11** 3 pins model, a temperature and humidity sensor on Raspberry Pi.
 You will learn how to connect the sensor to the Raspberry Pi , how to program DHT11 to read humidity and temperature and send the output to ssh terminal.
 
-
+The characteristics of DHT11 sensor 3 pins model are :
+ - 0-50°C temperature readings ±2°C accuracy
+ - 20-80% humidity readings with 5% accuracy
+ - Size 15.5mm x 12mm x 5.5mm
+ - 1 Hz sampling rate.
+ - 3 to 5V power and I/O.
+ 
+ 
 ## 1. Equipment and software.
 
 For this workshop we need some equipment and software.
