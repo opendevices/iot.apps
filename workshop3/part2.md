@@ -8,19 +8,19 @@ DHT11 sensor. Connect to your raspberry pi using ssh and add the following progr
  - WiringPi C library
  - thpi program to read data from sensor.
 
-  * Installing git.
+  1. Installing git.
 
 ```bash
 $ sudo apt-get install git
 ```
 
-  * Installing  WiringPi C library.
+  2. Installing  WiringPi C library.
 
 ```bash
 $ git clone git://git.drogon.net/wiringPi
 ```
 
-  * Building WiringPi C library
+  3. Building WiringPi C library
 
 ```bash
 $ cd wiringPi/
@@ -28,25 +28,25 @@ $ ./build
 
 ```
 
-Using dhpi program to read data from dht11 sensor.
+# 4. Reading the data sent by DHT11 sensor.
 
-  - download the thpi program on your Raspberry Pi system.
+To read data detected by the dht11 sensor we use **thpi** program.
+
+  1. download the thpi program on your Raspberry Pi system.
 
 ```bash
-$ wget https://github.com/opendevices/iot.apps/blob/master/workshop2/src/temp.c
+$ wget https://github.com/opendevices/iot.apps/blob/master/workshop3/src/thpi.c
 
 ```
 
-  - Compile the thpi program with wiringPi library.
+  2. Compile the thpi program with wiringPi library.
 
 ```bash
 $ gcc -o thpi thpi.c -lwiringPi -lwiringPiDev
 ```
 
-# 4. Reading the data sent by DHT11 sensor.
 
-
-Execute **thpi** program to read data from sensor  and see the result on your ssh terminal.
+  3. Execute **thpi** program to read data from sensor  and see the result on your ssh terminal.
 
 ```bash
 $ ./thpi
