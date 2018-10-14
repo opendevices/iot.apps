@@ -35,7 +35,7 @@ To read data detected by the dht11 sensor we use **thpi** program.
   1. download the thpi program on your Raspberry Pi system.
 
 ```bash
-$ wget https://github.com/opendevices/iot.apps/blob/master/workshop3/src/thpi.c
+$ wget https://raw.githubusercontent.com/opendevices/iot.apps/master/workshop3/src/thpi.c
 
 ```
 
