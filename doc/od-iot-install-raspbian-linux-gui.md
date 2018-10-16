@@ -61,8 +61,31 @@ all platforms (GNU/Linux, Mac and Windows).
 Once it's finished  Etcher unmount automatically the SD card   , you can  remove it safely  from the computer
 SD card reader.
 
+## 3. Configure Wifi and enable ssh service.
+It's practical to configure WiFi network and enable ssh service during the installation,
+that way the Raspberry Pi connect automatically to your network while boot
+and you can connect to it using ssh from your computer.
+Other wise you have to plug USB keyboard, mouse and HDMI screen to the Raspberry Pi and configure it
 
-## 3. Boot your Raspberry Pi
+So to configure WiFi network and enable ssh during installation do the following :
+ - Reinsert the MicroSD card into your computer (a boot and rootfs partitions will appear).
+ - Open a text editor for exemple **gedit**.
+ - Copy / paste the following WiFi configuration and adapt it to your network (change SSID and PSK).
+
+ ```bash
+ country=AU
+ ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+ update_config=1
+       network={
+         ssid="SSID"
+         psk="PASSWORD"
+         key_mgmt=WPA-PSK
+       }
+ ```
+ - save it with the name **wpa_supplicant.conf** under boot partition of MicroSD card.
+ - to enable ssh , open new file with gedit , let it empty and save it with **ssh** name under the same boot partition.
+
+## 4. Boot your Raspberry Pi
 
 Now our Raspberry is able to boot
 
