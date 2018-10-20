@@ -5,7 +5,7 @@
 [see MacOS users version](https://github.com/opendevices/iot.apps/blob/master/doc/)
 
 This guide will show you step by step, a straightforward process how to install a Raspbian OS  on
-Raspberry Pi 2. This method also work for all the different models of Raspberry Pi (A, B, B+, 2)
+Raspberry Pi 2 for Linux GUI users. This method also work for all the different models of Raspberry Pi (A, B, B+, 2)
 
 
 To succeed this installation , we need some equipment and software.
@@ -93,8 +93,22 @@ Now our Raspberry is able to boot
 
 - Insert the SD card into Raspberry Pi SD card slot.
 - Power with Micro USB cable (a least 2.5 A).
-- Plug the USB keyboard and mouse.
-- Plug your screen  HDMI cord .
+
+- Plug the USB keyboard and mouse. (Optional)
+- Plug your screen  HDMI cord . (Optional)
+
+## 5. Connect to Raspberry Pi using ssh.
+
+The Raspberry Pi should be ready and connected to WiFi router, you can access to it using **ssh**.
+
+  - Open a terminal in your computer and type the following command.
+
+  ```bash
+  $ ssh -l pi raspberrypi.local
+  ```
+
+  - Accept the RSA key with **yes**, if it's your first connection.
+  - Type the following password  : **raspberry** .
 
  enjoy  ;)
 ---
