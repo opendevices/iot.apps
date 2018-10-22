@@ -49,7 +49,7 @@ Support in general. Then write us to: support@opendevices.io
 ![Ionoid IoT](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/ionoid.png)
 
 
-* Download [SealOS Manager Tools](https://github.com/opendevices/packages....)
+* Download SealOS Manager for your Architecture here: [SealOS Manager Tools](https://github.com/opendevices/packages....)
 
 
 On Linux insert the MicroSD Card and mount or open the partitions of the
@@ -60,19 +60,32 @@ MicroSD Card `boot` and `rootfs`.
 
 
 
-* Then inside **sealos-manager** directory run:
+* Then go to where you did download **sealos-manger**, extract it and inside its directory install it.
 
-Replace the `usersession` with the user that mounted the MicroSD Card, and
+Replace the `usersession` with the username that mounted the MicroSD Card, and
 install `sealos-manager` with this command:
 
 ```bash
-DESTDIR=/run/media/usersession/rootfs/ sudo -E ./install.sh
+$ unzip sealos-manager-v*-arm.zip
+$ DESTDIR=/run/media/usersession/rootfs/ sudo -E ./install.sh
 ```
 
+## 4. Create A Project
+
+A Project is a Working Directory that regroups Devices and The attached
+Applications to it. A Project is created based on Device Architecture
+and all devices that are part of that group should have the same
+Architecture.
 
 
+Please complete the appropriate information and create your Project.
 
-## 4. Help
+
+Example [Adding ARMv6 Project for Raspberry PI Zero Devices](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/project-armv6.png)
+
+
+Example [Adding ARMv7 Project for Raspberry PI 3 Devices](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/project-armv7.png)
+
 
 ## 
 
