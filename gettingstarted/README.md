@@ -49,10 +49,11 @@ Support in general. Then write us to: support@opendevices.io
 ![Ionoid IoT](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/ionoid.png)
 
 
-* Download SealOS Manager for your Architecture here: [SealOS Manager Tools](https://github.com/opendevices/packages....)
+* Download SealOS Manager for your Architecture here: [SealOS Manager Tools](https://github.com/opendevices/packages/tree/master/sealos-manager/download/beta)
+Chose the last version.
 
 
-On Linux insert the MicroSD Card and mount or open the partitions of the
+After that, on Linux insert the MicroSD Card and mount or open the partitions of the
 MicroSD Card `boot` and `rootfs`.
 
 
