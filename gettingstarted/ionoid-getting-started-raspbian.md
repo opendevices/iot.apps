@@ -61,12 +61,14 @@ MicroSD Card `boot` and `rootfs`.
 
 
 * Then inside **sealos-manager** directory run:
+
+Replace the `usersession` with the user that mounted the MicroSD Card, and
+install `sealos-manager` with this command:
+
 ```bash
-DESTDIR=/run/media/$USER/rootfs/ sudo -E ./install.sh
+DESTDIR=/run/media/usersession/rootfs/ sudo -E ./install.sh
 ```
 
-This basically translates the `$USER` to your own current user, and
-install `sealos-manager` inside the card.
 
 
 
