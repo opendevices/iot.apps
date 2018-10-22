@@ -52,6 +52,21 @@ Support in general. Then write us to: support@opendevices.io
 * Download [SealOS Manager Tools](https://github.com/opendevices/packages....)
 
 
+On Linux insert the MicroSD Card and mount or open the partitions of the
+MicroSD Card `boot` and `rootfs`.
+
+
+![MicroSD Card Partitions](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/sdcard-boot-and-rootfs.png)
+
+
+
+* Then inside **sealos-manager** directory run:
+```bash
+DESTDIR=/run/media/$USER/rootfs/ sudo -E ./install.sh
+```
+
+This basically translates the `$USER` to your own current user, and
+install `sealos-manager` inside the card.
 
 
 
