@@ -23,6 +23,44 @@ Linux Users](https://github.com/ionoid/iot.apps/blob/master/doc/od-iot-install-r
 Guide](https://www.raspberrypi.org/documentation/installation/installing-images/)
 
 
+### 1.1 IoT Help and Support ?
+
+If you need support on this or stuck, or if you need IoT Help and
+Support in general. Then write us to: support@opendevices.io
+
+
+
+
+## 2. Material
+
+* Raspberry PI
+* MicroSD Card with Raspbian
+* Micro USB cable.
+* An [Ionoid.io Account](https://dashboard.ionoid.io/)
+
+
+
+
+
+## 3. Registering on Ionoid.io IoT Platform
+
+* First Create your Account on [Ionoid.oi](https://dashboard.ionoid.io/)
+
+
+
+* Download [SealOS Manager
+Tools](https://github.com/opendevices/packages....)
+
+
+
+
+
+## 4. Help
+
+## 
+
+
+
 # Installing  Raspbian on Raspberry Pi ZERO W, for Windows user.
 ![Raspberry Pi Zero W](https://github.com/opendevices/iot.apps/doc/img/raspberry-pi-zero-w.jpg)
 
