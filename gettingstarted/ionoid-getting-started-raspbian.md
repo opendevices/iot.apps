@@ -44,13 +44,12 @@ Support in general. Then write us to: support@opendevices.io
 
 ## 3. Registering on Ionoid.io IoT Platform
 
-* First Create your Account on [Ionoid.oi](https://dashboard.ionoid.io/)
+* First Create your Account on [Ionoid.oi Dashboard link](https://dashboard.ionoid.io/)
 
 ![Ionoid IoT](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/ionoid.png)
 
 
-* Download [SealOS Manager
-Tools](https://github.com/opendevices/packages....)
+* Download [SealOS Manager Tools](https://github.com/opendevices/packages....)
 
 
 
