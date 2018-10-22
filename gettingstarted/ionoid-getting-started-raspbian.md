@@ -46,6 +46,7 @@ Support in general. Then write us to: support@opendevices.io
 
 * First Create your Account on [Ionoid.oi](https://dashboard.ionoid.io/)
 
+![Ionoid IoT](https://github.com/opendevices/iot.apps/gettingstarted/images/ionoid.png)
 
 
 * Download [SealOS Manager
