@@ -140,8 +140,8 @@ Card of the Raspbian OS.
   like putty [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 - Setup putty
-  * Host name : **raspberrypi.local** or the hostname in the
-  **configuration** **config.json**
+  * Host name : **raspberrypi.local** or the hostname that you entered
+  in **5.1 Advanced Configuration** in **config.json**
   * Port: **22**
   * Default User Name: **pi**
   * Default Password: **raspberry**
