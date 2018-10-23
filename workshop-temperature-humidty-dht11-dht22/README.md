@@ -1,4 +1,4 @@
-# Opendevices IoT workshop 2
+# Workshop Temperature and Humidty
 
 ![](https://github.com/opendevices/iot.apps/blob/master/workshop2/iot.png)
 
