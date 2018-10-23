@@ -6,15 +6,17 @@ In this workshop we are going to setup **DHT11** a temperature and humidity sens
 on Raspberry Pi. You will learn how to connect the sensor to the raspberry Pi, how to
 read data from the DHT11 sensor and display it on ssh terminal.
 
+
 ## 1.Equipment
 
 For this workshop we need some equipment.
 
-![Equipement](https://github.com/opendevices/iot.apps/blob/master/workshop3/all.jpg)
+![Equipement](https://github.com/opendevices/iot.apps/blob/master/workshop-temperature-humidty-dht11-dht22/all.jpg)
 
 - Raspberry Pi.
 - **DHT11**, temperature and humidity sensor.
 - 3 jumber wires.
+
 
 ## 2. Connecting DHTT11 sensor to Raspberry Pi.
 
@@ -26,19 +28,19 @@ We are using DHT11 sensor, 3 pins model.
  - 1 Hz sampling rate.
  - 3 to 5V power and I/O.
 
-![DHT11 Temerature & Humidity sensor](https://github.com/opendevices/iot.apps/blob/master/workshop3/dht11.jpg)
+![DHT11 Temerature & Humidity sensor](https://github.com/opendevices/iot.apps/blob/master/workshop-temperature-humidty-dht11-dht22/dht11.jpg)
 
 
  * Connect the 3 jumber wires to the DHT11 sensor  
 
- ![DHT11 & Raspberry](https://github.com/opendevices/iot.apps/blob/master/workshop3/dht11rpi.jpg)
+ ![DHT11 & Raspberry](https://github.com/opendevices/iot.apps/blob/master/workshop-temperature-humidty-dht11-dht22/dht11rpi.jpg)
 
  * Connect the end of jumper wires to raspberry pi, as below.
    - Pinout 1 (Signal)   =>   Raspberry Pi pinout BCM4 (GPCLOk0).
    - Pinout 2 (Vcc ++)   =>   Raspberry Pi pinout 3v3 Power.
    - Pinout 3 (Ground -) =>    Raspbery Pi pinout 6 Ground.
 
-   ![Raspberry wires](https://github.com/opendevices/iot.apps/blob/master/workshop3/rpiwires.jpg)
+   ![Raspberry wires](https://github.com/opendevices/iot.apps/blob/master/workshop-temperature-humidty-dht11-dht22/rpiwires.jpg)
 
  * Power the Raspberry
  * Connect to it using ssh
