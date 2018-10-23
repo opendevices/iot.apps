@@ -50,7 +50,7 @@ For alternatives MQTT Clients, please see this list:
 * MQTT Web client or plugins 
 * Ether Chrome plugin MQTT-Lens 
 * MQTT.fx  (fat java client)
-* [Linear MQTT Dashboard Android](https://play.google.com/store/apps/details?id=com.ravendmaster.linearmqttdashboard2. Setting Up Raspberry Pi and Ionoid Account)
+* [Linear MQTT Dashboard Android](https://play.google.com/store/apps/details?id=com.ravendmaster.linearmqttdashboard)
 
 
 
@@ -65,34 +65,57 @@ This workshop will use part of [Ionoid IoT Platform](https://ionoid.io)
 To continue the workshop setup an account here: [Ionoid Account](https://dashboard.ionoid.io) First.
 
 
-
 Then follow the Starting Guide there to get your Raspberry PI up and
-running.
+running [Getting
+Started](https://github.com/opendevices/iot.apps/blob/master/gettingstarted/README.md)
 
 
+## 3. Install Mosquitto on Raspberry PI
+
+SSH into your Raspberry PI and install mosquitto client on it.
+
+```bash
+$ sudo apt install -y mosquitto-clients
+```
 
 
+## 4. Wireless Power Sockets Workshop
 
-## 3. Wireless Power Sockets
+In this Part we will use the power sockets that are preconfigured with the **ionoid wifi**.
 
-
-The power sockets are preconfigured with the ionoid wifi. 
-
-The automatically connect to mqtt.ionoid.io (without ssl as they don’t support it out of the box). 
+They automatically connect to `mqtt.ionoid.io` (without ssl as they don’t support it out of the box). 
 
 They are named “obi1” to “obi4”.
-The sockets subscribe to cmnd/<NAME>/power (NAME is one of obi1 .. obi4).
+The sockets subscribe to the following MQTT Topics:
+```
+cmnd/<NAME>/power
+```
+(NAME is one of obi1 .. obi4).
 
-To turn the sockets on send “on” as message to the topic, eg:
-mosquitto_pub -h mqtt.ionoid.io -u workshop -P workshop -t cmnd/obi1/power  -m on
 
- Same with off:  
-mosquitto_pub -h mqtt.ionoid.io -u workshop -P workshop -t cmnd/obi1/power  -m off
 
-To use ssl with mosquitto_sub you need to give the path of the cacerts you want to use. That enables ssl. The port is 8883. 
-Mosquitto_pub --capath /etc/ssl/certs -p 8883  -u workshop …...
---------------------
+### 4.1 Turning Sockets ON and OFF
 
+To turn the sockets on send `on` as message to the topic, eg:
+```bash
+$ mosquitto_pub -h mqtt.ionoid.io -u workshop -P workshop -t cmnd/obi1/power  -m on
+```
+
+Same with off:  
+```bash
+$ mosquitto_pub -h mqtt.ionoid.io -u workshop -P workshop -t cmnd/obi1/power  -m off
+```
+
+To use ssl with mosquitto_sub you need to give the path of the cacerts you want to use. That enables ssl. The port is 8883.
+
+```bash
+$ mosquitto_pub --capath /etc/ssl/certs -p 8883  -u workshop ...
+```
+
+
+## 5. Temperature and Humidity
+
+First you can check the following Temperature and Humidity workshop:
 
 
 
