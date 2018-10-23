@@ -12,11 +12,11 @@ Flash the MicroSD Card using the following guides, no need to configure
 the Wireless or anything else.
 
 * [Installing Raspbian on Raspberry Pi - Windows
-Users](https://github.com/ionoid/iot.apps/blob/master/doc/od-iot-raspbian-rpi-zero-windows.md)
+Users](https://github.com/opendevices/iot.apps/blob/master/doc/od-iot-raspbian-rpi-zero-windows.md)
 
 
 * [Installing Raspbian on Raspberry Pi -
-Linux Users](https://github.com/ionoid/iot.apps/blob/master/doc/od-iot-install-raspbian-linux-gui.md)
+Linux Users](https://github.com/opendevices/iot.apps/blob/master/doc/od-iot-install-raspbian-linux-gui.md)
 
 
 * [Raspberry Foundation Installation
