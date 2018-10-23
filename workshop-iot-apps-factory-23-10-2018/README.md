@@ -117,43 +117,39 @@ $ mosquitto_pub --capath /etc/ssl/certs -p 8883  -u workshop ...
 
 First you can check the following Temperature and Humidity workshop:
 
+[DHT11-DHT22
+Workshop](https://github.com/opendevices/iot.apps/blob/master/workshop-temperature-humidty-dht11-dht22/README.md)
 
+
+After that we can follow with:
 
 For the temperature / humidity example send the measured values to something like:
- /house/office/temperature or /house/office/humidity
 
-For the workshop everyone should use its name:
-eg : 
+```
+/house/office/temperature or /house/office/humidity
+```
+
+For the workshop everyone should use its project, eg :
+
+```
 Mosquitto_pub -h mqtt.ionoid.io -u workshop -P workshop -t /workshop/myproject/temperature -m 23.5 
 Mosquitto_pub -h mqtt.ionoid.io -u workshop -P workshop -t /workshop/myproject/temperature -m 23.5 
+```
+
+Open another SSH Session or Putty Session on your Raspberry PI, and do
+the following:
+
+```bash
+mosquitto_sub -h mqtt.ionoid.io --capath /etc/ssl/certs -p 8883  -v -t “#” -u workshop -P workshop
+```
+
+Let it scroll.
 
 
-On the Big screen open a terminal and let all messages scroll
-Mosquitto_sub -h mqtt.ionoid.io --capath /etc/ssl/certs -p 8883  -v -t “#” -u workshop -P workshop
+## Temperature and Humidity + MQTT IoT App
 
 
---------------------------------------
-Howto connect the network
-
-Connect the raspberry Pi Desktop to TV and Keyboard / Mouse
-In the Networkmanager connect to Factory Wifi
-Open a terminal and run “sudo ./forward.sh”
-Connect the Netgear router (internet port)  with the network cable to the raspberry pi
- and power the router on
-After a while (give 2 minutes) The wifi symbol and the internet symbol on th erouter should be light up green
-
-Leave the Raspberry connected!
-
-If Router is ready, plug in the power sockets
------------------------
-For the PocketChip
-Boot
-Conect to wifi
-Open terminal
-Run firefox
-
-
-
-
+Lets continue by activating a sensing App that automoatically sends
+using mosquitto.
 
 
