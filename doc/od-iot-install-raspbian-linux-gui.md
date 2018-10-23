@@ -113,4 +113,4 @@ The Raspberry Pi should be ready and connected to WiFi router, you can access to
  enjoy  ;)
 ---
 
-To access to your Raspberry Pi without using keyboard and screen, see this [link](https://github.com/opendevices/iot.apps/blob/master/doc/od-iot-raspbian-rpi-windows.md).
+
