@@ -12,6 +12,9 @@ Lohmühlenstraße 65
 12435 Berlin 
 
 
+Thanks to [Open Devices IoT](https://opendevices.io) and [FactoryBerlin](https://factoryberlin.com)
+for sponsoring the event
+
 
 ## 1. Introduction
 
@@ -38,17 +41,34 @@ Port:  8883    secure-mqtt  (via ssl)
 
 For an MQTT Client, please install: [mosquitto](https://mosquitto.org/)
 
-How to use it to send as an example the captured temperature:
+How to use it to send, as an example the captured temperature:
 ```bash
 $ mosquitto_pub -h mqtt.ionoid.io -u workshop -P workshop -t /workshop/myproject/temperature -m 23.5 
 ```
 
+For alternatives MQTT Clients, please see this list:
+* MQTT Web client or plugins 
+* Ether Chrome plugin MQTT-Lens 
+* MQTT.fx  (fat java client)
+* [Linear MQTT Dashboard Android](https://play.google.com/store/apps/details?id=com.ravendmaster.linearmqttdashboard2. Setting Up Raspberry Pi and Ionoid Account)
 
-## 2. Setting Up Raspberry Pi and Ionoid Account
 
-This workshop will use part of [Ionoit IoT Platform](https://ionoid.io)
+
+## 2. Setting UP Raspberry PI and an Ionoid IoT Account
+
+This workshop will use part of [Ionoid IoT Platform](https://ionoid.io)
+
+
+![Ionoid IoT](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/ionoid.png)
+
 
 To continue the workshop setup an account here: [Ionoid Account](https://dashboard.ionoid.io) First.
+
+
+
+Then follow the Starting Guide there to get your Raspberry PI up and
+running.
+
 
 
 
