@@ -12,11 +12,11 @@ Flash the MicroSD Card using the following guides, no need to configure
 the Wireless or anything else.
 
 * [Installing Raspbian on Raspberry Pi - Windows
-Users](https://github.com/ionoid/iot.apps/blob/master/doc/od-iot-raspbian-rpi-zero-windows.md)
+Users](https://github.com/opendevices/iot.apps/blob/master/doc/od-iot-raspbian-rpi-zero-windows.md)
 
 
 * [Installing Raspbian on Raspberry Pi -
-Linux Users](https://github.com/ionoid/iot.apps/blob/master/doc/od-iot-install-raspbian-linux-gui.md)
+Linux Users](https://github.com/opendevices/iot.apps/blob/master/doc/od-iot-install-raspbian-linux-gui.md)
 
 
 * [Raspberry Foundation Installation
@@ -49,10 +49,11 @@ Support in general. Then write us to: support@opendevices.io
 ![Ionoid IoT](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/ionoid.png)
 
 
-* Download [SealOS Manager Tools](https://github.com/opendevices/packages....)
+* Download SealOS Manager for your Architecture here: [SealOS Manager Tools](https://github.com/opendevices/packages/tree/master/sealos-manager/download/beta)
+Chose the last version.
 
 
-On Linux insert the MicroSD Card and mount or open the partitions of the
+After that, on Linux insert the MicroSD Card and mount or open the partitions of the
 MicroSD Card `boot` and `rootfs`.
 
 
@@ -60,141 +61,99 @@ MicroSD Card `boot` and `rootfs`.
 
 
 
-* Then inside **sealos-manager** directory run:
+* Then go to where you did download **sealos-manger**, extract it and inside its directory install it.
 
-Replace the `usersession` with the user that mounted the MicroSD Card, and
+Replace the `usersession` with the username that mounted the MicroSD Card, and
 install `sealos-manager` with this command:
 
 ```bash
-DESTDIR=/run/media/usersession/rootfs/ sudo -E ./install.sh
+$ unzip sealos-manager-v*-arm.zip
+$ DESTDIR=/run/media/usersession/rootfs/ sudo -E ./install.sh
 ```
 
+## 4. Create A Project
+
+A Project is a Working Directory that regroups Devices and The attached
+Applications to it. A Project is created based on Device Architecture
+and all devices that are part of that group should have the same
+Architecture.
+
+
+Please complete the appropriate information and create your Project.
+
+
+**Example Adding ARMv6 Project**
+
+![Adding ARMv6 Project for Raspberry PI Zero Devices](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/project-armv6.png)
+
+
+**Example Adding ARMv7 Project**
+
+![Adding ARMv7 Project for Raspberry PI 3 Devices](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/project-armv7.png)
+
+
+## 5. Adding Devices to a Project
+
+To add your devices to a specific project, go to the `Add Device`
+Button.
+
+This will Prompt to configure your new device, generate a configuration
+and download it.
+
+
+![Project Page](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/project-page.png)
+
+![Add Device Page](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/add-device.png)
+
+
+### 5.1 Advanced Configuration
+
+**Important: Change your Device Name to uniquely identify it**
+
+
+To Configure your Device Name or To Configure the WIFI from the
+dashboard, click on Advanced Configuration.
+
+**Keep in mind that the generated Configuration is private, do not share
+it**
+
+
+After clicking on `Download OS Configuration`, save it to a local
+storage.
+
+
+## 6. Copy Your OS Configuration to the MicroSD Card
+
+Then copy the download OS Configuration to the `boot` partition of the MicroSD
+Card of the Raspbian OS.
+
+**Safely unmount and eject your MicroSD Card**
+
+
+## 7. Boot
+
+![Raspberry Pi Zero](https://github.com/opendevices/iot.apps/blob/master/gettingstarted/images/RpiZero.jpg)
+
+- Insert the Micro SD into Raspberry Pi,
+- Power with Micro USB cable or any other appropriate Power Source.
 
 
 
-## 4. Help
-
-## 
-
-
-
-# Installing  Raspbian on Raspberry Pi ZERO W, for Windows user.
-![Raspberry Pi Zero W](https://github.com/opendevices/iot.apps/doc/img/raspberry-pi-zero-w.jpg)
-
----
-This guide will show you step by step, how to install a Raspbian OS  on
-**Raspberry Pi Zero W**, enable **ssh** service and configure **WiFi** connection
-without using a keyboard, screen and mouse .
-
-For this installation we need some equipment and software.
-  - MicroSD card.
-  - MicroSD card reader , if your computer don’t have a MicroSD card slot.
-  - Power supply with micro USB cable.
-
-Software:
-  - Rasbpian image .
-  - Etcher Software .
-
-  The process is very simple, download a Raspbian image and Etcher software,
-  use Etcher to write the Raspbian image into the MicroSD card , configure WiFi connection
-  enable SSH service and boot.
-
-
-## 1. Downloading Raspbian.
- - Download the Rasbpian image, you can find the latest version here  [Raspbian image](https://www.raspberrypi.org/downloads/raspbian/).
-
- ![Download raspbian windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/RaspbianDownloadWindows2.png)
-
-## 2. Copy Raspbian to the MicroSD card
- The simplest and easiest way to copy the Raspbian OS to your MicroSD card is, Etcher software.It's work well on Windows.
-
- - Download a Windows version of  Etcher software, from  [Etcher](https://etcher.io/)
-
- ![Download Etcher](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherDownloadWindows2.png)
-
- - Unzip it.
- - Install Etcher on your Windows system.
-
- ![Etcher Install Windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherInstallWindows.png)
-
- - Insert the MicroSD card into the card reader.
-
- ![MicroSD Reader](https://github.com/opendevices/iot.apps/blob/master/doc/img/SDcardReader.jpg)
-
-  - Execute Etcher.
-  - Once Etcher open, browse and select the Raspbian image.
-
-  ![Open Etcher](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherSelectWindows.png)
-
-  - Select the MicroSD card that you which to install Raspbian on.
-  - Click on the flash button.
-
-  ![etcher flash](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherFlashWindows.png)
-
-Once it's finished  Etcher **unmount** automatically the MicroSD card.
-
-## 3. Configure Wifi
-  To configure WiFi connection on Rapsberry Pi Zero W do
-
-  - Remove the MicroSD card from the SD card reader.
-  - Reinsert the Micro SD card into computer SD card reader.
-  - Observe that a *boot* partition will mount automatically.
-
-  ![Boot auto](https://github.com/opendevices/iot.apps/blob/master/doc/img/BootPartWindows.png)
-
-  - open **notepad** and copy/paste the following lines
-
-```bash
-	country=AU
-	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-	update_config=1
-        network={
-	        ssid="SSID"
-	        psk="PASSWORD"
-	        key_mgmt=WPA-PSK
-        }
-```
-
- - Replace **SSID** with your Wifi ID and **PASSWORD** with your Wifi password.
- - Save the file as **wpa_supplicant.conf** under **boot** partition.
-
-
-or if you can put the MicroSD Card on Linux, you will have the
-**rootfs** partition then save it as **wpa_supplicant.conf** under **rootfs** partition under **/etc/wpa_supplicant/**
-
-
- ![WiFi Config Windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/ConfigWifiWindows.png)
-
-
-## 4. Enable ssh
-
- - Launch Notepad
- - Click on **File** and then **Save As..**, a dialog box is displayed.
- - Type an opening quotation mark, ssh and then closing quotation mark. That way **"ssh"**.    
-
-![SSH Config Windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/ConfigSshWindows.png)
-
- - Click on the SD card **boot** partition to save file on it.
- - Click the **Save** button.
-
-
-## 5. First boot
-
-![Raspberry Pi Zero](https://github.com/opendevices/iot.apps/blob/master/doc/img/RpiZero.jpg)
-
-- Insert the Micro SD into Raspberry Pi Zero,
-- Power with Micro USB cable (at least 2.5 A).
-
+## 8. Access Your Raspberry PI
 
 - To access to your Raspberry Pi , via your Windows computer you need a ssh client
   like putty [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 - Setup putty
-  * Host name : **raspberrypi.local**
+  * Host name : **raspberrypi.local** or the hostname that you entered
+  in **5.1 Advanced Configuration** in **config.json**
   * Port: **22**
   * Default User Name: **pi**
   * Default Password: **raspberry**
 
+
+
+- On Linux you need `ssh`
 
 - Complete ssh command to connect:
 
