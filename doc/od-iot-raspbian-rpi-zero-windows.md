@@ -1,5 +1,5 @@
 # Installing  Raspbian on Raspberry Pi ZERO W, for Windows user.
-![Raspberry Pi Zero W](https://github.com/opendevices/iot.apps/doc/img/raspberry-pi-zero-w.jpg)
+![Raspberry Pi Zero W](https://github.com/opendevices/iot.apps/doc/img/RpiZero.jpg)
 
 ---
 This guide will show you step by step, how to install a Raspbian OS  on
