@@ -82,10 +82,12 @@ Architecture.
 Please complete the appropriate information and create your Project.
 
 
-Example ![Adding ARMv6 Project for Raspberry PI Zero Devices](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/project-armv6.png)
+Example Adding ARMv6 Project
+![Adding ARMv6 Project for Raspberry PI Zero Devices](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/project-armv6.png)
 
 
-Example ![Adding ARMv7 Project for Raspberry PI 3 Devices](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/project-armv7.png)
+Example Adding ARMv7 Project
+![Adding ARMv7 Project for Raspberry PI 3 Devices](https://raw.githubusercontent.com/opendevices/iot.apps/master/gettingstarted/images/project-armv7.png)
 
 
 ## 5. Adding Devices to a Project
