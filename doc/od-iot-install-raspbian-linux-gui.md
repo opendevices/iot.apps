@@ -89,8 +89,6 @@ So to configure WiFi network and enable ssh during installation do the following
 
 Now our Raspberry is able to boot
 
-![image plug ]()
-
 - Insert the SD card into Raspberry Pi SD card slot.
 - Power with Micro USB cable (a least 2.5 A).
 
