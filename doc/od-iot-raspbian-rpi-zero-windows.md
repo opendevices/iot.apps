@@ -40,7 +40,7 @@ Software:
 
  - Insert the MicroSD card into the card reader.
 
- ![MicroSD Reader](https://github.com/opendevices/iot.apps/blob/master/doc/img/SDcardReader2.jpg)
+ ![MicroSD Reader](https://github.com/opendevices/iot.apps/blob/master/doc/img/SDcardReader.jpg)
 
   - Execute Etcher.
   - Once Etcher open, browse and select the Raspbian image.
