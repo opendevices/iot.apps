@@ -40,7 +40,7 @@ Software:
 
  - Insert the MicroSD card into the card reader.
 
- ![MicroSD Reader](https://github.com/opendevices/iot.apps/blob/master/doc/img/SDcardReader.jpg)
+ ![MicroSD Reader](https://github.com/opendevices/iot.apps/blob/master/doc/img/SDcardReader2.jpg)
 
   - Execute Etcher.
   - Once Etcher open, browse and select the Raspbian image.
@@ -100,8 +100,6 @@ or if you can put the MicroSD Card on Linux, you will have the
 
 
 ## 5. First boot
-
-![Raspberry Pi Zero](https://github.com/opendevices/iot.apps/blob/master/doc/img/RpiZero.jpg)
 
 - Insert the Micro SD into Raspberry Pi Zero,
 - Power with Micro USB cable (at least 2.5 A).
