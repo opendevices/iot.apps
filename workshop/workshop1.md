@@ -1,5 +1,8 @@
 # Opendevices IoT Workshop
 
+In this workshop we are going to see how to build a video-streaming system without writing any line of code, just using 
+a Raspberry Pi board and usb camera and vlc software.
+
 For this workshop we need :
 
   - Raspberry PI  with Raspbian system.
