@@ -1,5 +1,6 @@
 # Installing Raspbian on Raspberry Pi 2, 3
 
+![Raspberry Pi3](https://github.com/opendevices/iot.apps/blob/master/doc/img/RaspberryPi3header.jpg)
 
 1. Download the raspbian image
 2. Find the mountpoint  of the SD card
