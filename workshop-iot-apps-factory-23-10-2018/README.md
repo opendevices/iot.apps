@@ -1,3 +1,4 @@
+![Ionoid IoT](https://github.com/opendevices/iot.apps/blob/master/doc/img/IonoidIoTsmall.png)
 # Berlin IoT Makers - Workshop 23 October 2018 - Factory Berlin
 
 
