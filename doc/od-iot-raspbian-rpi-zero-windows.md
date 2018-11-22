@@ -1,4 +1,4 @@
-![OpenDevices](https://github.com/opendevices/iot.apps/blob/master/doc/img/IonoidIoTlogo.png)
+![OpenDevices](https://github.com/opendevices/iot.apps/blob/master/doc/img/IonoidIoTsmall.png)
 # Installing  Raspbian on Raspberry Pi ZERO W, for Windows user.
 
 ![Raspberry Pi Zero W](https://github.com/opendevices/iot.apps/blob/master/doc/img/RaspberryPiZeroheader.png)
