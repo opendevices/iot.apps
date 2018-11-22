@@ -1,3 +1,4 @@
+![Ionoid IoT](https://github.com/opendevices/iot.apps/blob/master/doc/img/IonoidIoTsmall.png)
 # Installing Raspbian on Raspberry Pi 2, 3
 
 ![Raspberry Pi3](https://github.com/opendevices/iot.apps/blob/master/doc/img/RaspberryPi3header.jpg)
