@@ -1,4 +1,4 @@
-
+![Ionoid IoT](https://github.com/opendevices/iot.apps/blob/master/doc/img/IonoidIoTsmall.png)
 # 3. Adding software to your Raspberry Pi system.
 
 
