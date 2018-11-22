@@ -1,3 +1,4 @@
+![Ionoid IoT](https://github.com/opendevices/iot.apps/blob/master/doc/img/IonoidIoTsmall.png)
 # Installing Raspbian on the Raspberry Pi : A Simple guide. (Linux GUI users)
 
 [see Windows users version](https://github.com/opendevices/iot.apps/blob/master/doc/od-iot-raspbian-rpi-zero-windows.md)
