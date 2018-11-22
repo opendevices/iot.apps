@@ -1,3 +1,4 @@
+![Ionoid IoT](https://github.com/opendevices/iot.apps/blob/master/doc/img/IonoidIoTsmall.png)
 # Workshop Temperature and Humidty
 
 ![](https://github.com/opendevices/iot.apps/blob/master/workshop2/iot.png)
