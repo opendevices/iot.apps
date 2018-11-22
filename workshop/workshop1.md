@@ -1,4 +1,5 @@
-# Opendevices IoT Workshop
+![Ionoid IoT](https://github.com/opendevices/iot.apps/blob/master/doc/img/IonoidIoTsmall.png)
+# Video streaming Workshop
 
 In this workshop we are going to see how to build a video-streaming system without writing any line of code, just using 
 a Raspberry Pi board and usb camera and vlc software.
