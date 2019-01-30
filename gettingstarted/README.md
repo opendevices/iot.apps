@@ -50,7 +50,7 @@ Support in general. Then write us to: support@opendevices.io
 
 
 * Download SealOS Manager for your Architecture here: [SealOS Manager Tools](https://github.com/opendevices/packages/tree/master/sealos-manager/download/beta)
-Chose the last version.
+Choose the last version.
 
 
 After that, on Linux insert the MicroSD Card and mount or open the partitions of the
