@@ -1,3 +1,4 @@
+![Ionoid IoT](https://github.com/opendevices/iot.apps/blob/master/doc/img/IonoidIoTsmall.png)
 # Manual Installation of Home Assistant on Raspberry Pi
 
 Instruction assume this a new installtion of Raspbian Lite or

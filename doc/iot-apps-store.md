@@ -1,3 +1,4 @@
+![Ionoid IoT](https://github.com/opendevices/iot.apps/blob/master/doc/img/IonoidIoTsmall.png)
 # IoT Apps Store
 
 To Deploy IoT Apps using Open Devices IoT Platform you have to point to

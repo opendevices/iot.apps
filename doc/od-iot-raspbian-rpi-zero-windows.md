@@ -1,5 +1,7 @@
+![Ionoid IoT](https://github.com/opendevices/iot.apps/blob/master/doc/img/IonoidIoTsmall.png)
 # Installing  Raspbian on Raspberry Pi ZERO W, for Windows user.
-![Raspberry Pi Zero W](https://github.com/opendevices/iot.apps/doc/img/raspberry-pi-zero-w.jpg)
+
+![Raspberry Pi Zero W](https://github.com/opendevices/iot.apps/blob/master/doc/img/RaspberryPiZeroheader.png)
 
 ---
 This guide will show you step by step, how to install a Raspbian OS  on
@@ -99,8 +101,6 @@ or if you can put the MicroSD Card on Linux, you will have the
 
 
 ## 5. First boot
-
-![Raspberry Pi Zero](https://github.com/opendevices/iot.apps/blob/master/doc/img/RpiZero.jpg)
 
 - Insert the Micro SD into Raspberry Pi Zero,
 - Power with Micro USB cable (at least 2.5 A).

@@ -1,3 +1,4 @@
+![Ionoid IoT](https://github.com/opendevices/iot.apps/blob/master/doc/img/IonoidIoTsmall.png)
 # Installation of Home Assistant on Raspberry Pi, easy way.
 
 This is a easy way to install Home Assistant for users who are not familiar with Linux environment.
